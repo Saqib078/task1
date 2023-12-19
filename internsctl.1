@@ -1,0 +1,80 @@
+.TH INTERNSCTL 1 "December 2023" "Version 1.0" "Internsctl Manual"
+
+.SH NAME
+internsctl \- custom Linux command for various system information
+
+.SH SYNOPSIS
+.B internsctl
+[\fB\-\-version\fR |
+\fBcpu getinfo\fR |
+\fBmemory getinfo\fR |
+\fBuser list\fR [\fB\-\-sudo\-only\fR] |
+\fBuser create\fR |
+\fBfile getinfo\fR [\fB\-s\fR | \fB\-\-size\fR \fIfile\fR] [\fB\-p\fR | \fB\-\-permission\fR \fIfile\fR] [\fB\-o\fR | \fB\-\-owner\fR \fIfile\fR]]
+
+.SH DESCRIPTION
+The
+.B internsctl
+command provides various functionalities to retrieve system information.
+
+.SH OPTIONS
+.TP
+.B \-\-version
+Displays the version of
+.B internsctl.
+.TP
+.B cpu getinfo
+Displays information about the CPU.
+.TP
+.B memory getinfo
+Displays information about system memory.
+.TP
+.B user list
+Displays a list of all users. Optionally, use
+.B \-\-sudo\-only
+to display only users with sudo privileges.
+.TP
+.B user create
+Creates a new user.
+.TP
+.B file getinfo
+Displays information about a file. Options:
+.RS
+.TP
+.B \-s, \-\-size \fIfile\fR
+Display the size of the file.
+.TP
+.B \-p, \-\-permission \fIfile\fR
+Display the permissions of the file.
+.TP
+.B \-o, \-\-owner \fIfile\fR
+Display the owner of the file.
+.RE
+
+.SH EXAMPLES
+Display version:
+.BR internsctl \ \-\-version
+.PP
+Display CPU information:
+.BR internsctl \ cpu \ getinfo
+.PP
+Display memory information:
+.BR internsctl \ memory \ getinfo
+.PP
+List all users:
+.BR internsctl \ user \ list
+.PP
+Create a new user:
+.BR internsctl \ user \ create
+.PP
+Display file information:
+.BR internsctl \ file \ getinfo \ \-s \ \-\-permission \ \-\-owner \ filename
+
+.SH SEE ALSO
+.BR lscpu (1),
+.BR free (1),
+.BR adduser (8),
+.BR stat (1)
+
+.SH AUTHOR
+Your Name example@gmail.com
