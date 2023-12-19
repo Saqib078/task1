@@ -1,0 +1,12 @@
+.container_pre_book{
+    margin-left: 20px;
+}
+.pre_img{
+    width: 500px;
+    filter: blur(4px);
+}
+.pre_content p{
+    color: #333;
+    font-size: 24px;
+    margin: 0;padding: 0;
+}

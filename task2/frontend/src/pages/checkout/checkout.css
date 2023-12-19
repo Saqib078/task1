@@ -1,0 +1,254 @@
+.product_bill_container {
+    display: flex;
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+    margin-left: 6rem;
+}
+
+.product_checkout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check_pro_details {
+    width: 70%;
+}
+
+.product_checkout {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    border: 1px solid rgb(51, 51, 51, 30%);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    margin-left: 2rem;
+}
+
+.img_checkout {
+    width: 20%;
+    height: 160px;
+    border: 1px solid #333;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.check_pro_details {
+    text-align: right;
+}
+
+.check_pro_details .p_part1_checkout {
+    font-size: 28px;
+    color: rgb(51, 51, 51, 70%);
+    padding: 6px;
+    margin: 0;
+}
+
+.check_pro_details .p_part2_checkout {
+    font-size: 14px;
+    color: rgb(51, 51, 51, 60%);
+    margin: 0;
+}
+
+.check_pro_details .p_part3_checkout {
+    font-size: 22px;
+    color: rgb(47, 46, 46, 76%);
+    font-weight: bold;
+    padding-right: 2.8rem;
+    margin: 0;
+}
+
+.quantity_checkout {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.quantity_checkout button {
+    background: transparent;
+    padding: 0px 3px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity_checkout .but_2 {
+    font-size: 22px;
+}
+
+.quantity_checkout button:hover {
+    background-color: rgb(51, 51, 51, 20%);
+}
+
+.p_checkout_quan {
+    font-size: 21px;
+    color: rgba(6, 6, 6, 0.8);
+    margin-right: 1rem;
+    border: 1px solid #bebcbc;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+/* .input_checkout{
+    width: 0px;
+} */
+.input_checkout input {
+    padding: 6px 2px;
+    width: 40px;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.product_summary {
+    width: 30%;
+    height: fit-content;
+    border: 1px solid rgb(51, 51, 51, 30%);
+    border-radius: 2px;
+}
+
+.head_price_sum {
+    background-color: rgb(51, 51, 51, 30%);
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.head_price_sum p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.summary_bill {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.con_bill p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.con_bill_add {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10px;
+}
+
+.con_bill_part2 {
+    font-size: 20px;
+}
+
+.hr_space {
+    margin: 20px 0px 0px 0px;
+}
+
+.con_bill_part2 p {
+    margin: 0;
+}
+
+.button_add_address p {
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid rgb(51, 51, 51, 20%);
+    background-color: rgba(1, 1, 1, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.button_add_address p:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000000;
+}
+
+.shipping_checkout {
+    text-align: center;
+}
+
+.ship_head {
+    font-size: 31px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.ship_input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_ship {
+    border: 1px solid rgb(51, 51, 51, 20%);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(190, 188, 188, 20%);
+}
+
+.ship_input input {
+    background-color: #fff;
+    border: 1px solid rgb(51, 51, 51, 30%);
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 21px;
+    margin: 10px;
+    color: rgb(51, 51, 51, 75%);
+    width: 500px;
+}
+
+::placeholder {
+    color: rgb(51, 51, 51, 60%);
+    font-size: 15px;
+}
+
+.ship_next {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.but_ship_next {
+    border: 1px solid rgb(51, 51, 51, 10%);
+    padding: 10px;
+    font-size: 19px;
+    background-color: rgb(255, 0, 0, 70%);
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.but_ship_next:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.con_pay_check {
+    cursor: pointer;
+    font-size: 26px;
+    color: #803e3e;
+    border: 2px dotted rgb(12, 11, 11);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.con_pay_check:hover {
+    background-color: #fff;
+}
+
+.butt_accept {
+    text-align: center;
+}
+
+.last_message_checkout p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(51, 51, 51, 80%);
+    margin-top: 7rem;
+    margin-bottom: 20rem;
+}

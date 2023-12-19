@@ -1,0 +1,150 @@
+.otp-container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 300px;
+}
+
+.otp-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.otp-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.otp-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.otp-input input {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 1px;
+    color: black;
+}
+
+.resend-button {
+    background-color: #007bff;
+    color: #f6f0f0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add your animations here */
+.send_otp_container {
+    margin-top: 6rem;
+}
+
+.head_reset p {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(51, 51, 51, 80%);
+    font-weight: 700;
+}
+
+.container_reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head_send_otp p,
+.otp-container .otp_auth_p1 {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.resend-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #333;
+}
+
+.pass_change_container {
+    margin-top: 6rem;
+}
+
+.pass_change_container input {
+    width: 600px;
+}
+
+.order_img {
+    height: 450px;
+    overflow: hidden;
+}
+
+.pro_order {
+    margin: 20px;
+}
+
+/* track order */
+.Track_order_container{
+  border: 1px solid rgb(51, 51, 51,60%);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.step{
+  display: flex;
+  align-items: flex-start;
+}
+.track_head{
+  font-size: 36px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+}
+.circle-line_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #838181;
+  border-radius: 20px;
+  background-color: #777474;
+  margin-right: 10px;
+  
+}
+.line{
+  width: 2px;
+  height: 50px;
+  border: 1px solid #787676;
+  background-color: #706e6e;
+  margin-right: 10px;
+}
+.step-label{
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.active{
+  background-color: green;
+}
+.pro_Trackpart{
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.orderTrack_img{
+  width: 80px;
+  height: 100px;
+  margin-right: 10px;
+}

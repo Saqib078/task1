@@ -1,0 +1,17 @@
+.container_about{
+    margin: 3rem;
+}
+.head_about{
+    color: rgb(51, 51, 51,80%);
+    font-size: 32px;
+    font-weight: 700;
+}
+.about_para_content p{
+    color: rgb(51, 51, 51,70%);
+    margin: 0;
+    font-size: 16px;
+    padding: 2px;
+}
+.para_about{
+    margin-left:1rem;
+}

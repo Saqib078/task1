@@ -1,0 +1,124 @@
+.auth_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.login {
+    width: 35%;
+    border: 1px solid rgb(51, 51, 51, 20%);
+    display: flex;
+    justify-content: center;
+}
+
+.login_part2 ,.thumnail-pic {
+    text-align: center;
+    width: 90%;
+}
+
+.login_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_head {
+    font-size: 32px;
+    color: rgb(51, 51, 51, 90%);
+    font-weight: bold;
+}
+
+.login_head p {
+    margin: 0;
+    padding: 20px;
+}
+
+.login_input input {
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(51, 51, 51, 70%);
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgb(51, 51, 51, 50%);
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+.part2_button button,.login_button{
+    padding: 8px;
+    font-size: 17px;
+    background-color: rgb(51, 51, 51, 60%);
+    color: #fff;
+    border: 1px solid rgb(51, 51, 51, 40%);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.part2_button button:hover,.login_button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.link_signin{
+    font-size: 14px;
+    margin: 22px;
+}
+.link_signin a{
+     border: 1px solid rgb(51, 51, 51, 5%);
+    padding: 5px;
+}
+.link_signin a:hover{
+    background-color: rgb(51, 51, 51, 40%);
+    color: #fff;
+}
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #333;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+    border: 1px solid #333;
+}
+.thumnail-wrap{
+    margin:20px;
+}
+.drop-title{
+    font-size: 32px;
+    color: rgb(51, 51, 51, 70%);
+}
+@media screen and (max-width: 1200px) {
+   .login{
+    width: 45%;
+   }
+}
+@media screen and (max-width: 750px) {
+    .login{
+     width: 65%;
+    }
+ }
+ @media screen and (max-width: 450px) {
+    .login{
+     width: 85%;
+    }
+ }

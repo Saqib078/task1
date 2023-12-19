@@ -1,0 +1,13 @@
+.hel{
+    text-align: center;
+    background-color: #111;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  canvas {
+    display: block;
+  }
+  

@@ -1,0 +1,8 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.p_footer{
+    font-size: 14px;
+    color: rgb(51, 51, 51,60%);
+}
