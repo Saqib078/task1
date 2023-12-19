@@ -2,6 +2,11 @@
 
 `internsctl` is a custom Linux command designed to provide various system information and perform specific tasks conveniently through the command line.
 
+## Flowchart
+flowchart designed using draw.io
+
+![flowchart](flowchart.jpeg)
+
 ## Features
 
 - Display system-wide information about CPU, memory, users, and files.
@@ -39,6 +44,6 @@ The `internsctl` command follows the structure below:
 internsctl [--version | cpu getinfo | memory getinfo | user [list [--sudo-only] | create] | file getinfo [options]]
 ```
 ### Options for file getinfo
--s, --size: Display the size of the file.
--p, --permission: Display the permissions of the file.
--o, --owner: Display the owner of the file.
+- -s, --size: Display the size of the file.
+- -p, --permission: Display the permissions of the file.
+- -o, --owner: Display the owner of the file.
